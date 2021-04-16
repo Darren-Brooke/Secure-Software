@@ -44,14 +44,7 @@ include 'navbar.php';
                         <option>high</option>
                     </select>
                 </div>
-                <!-- <div class="form-group">
-                    <label for="status">Ticket Status</label>
-                    <select name="status" class="form-control" id="status">
-                        <option>open</option>
-                        <option>resolved</option>
-                        <option>closed</option>
-                    </select>
-                </div> -->
+                
                 <button type="submit" name="submit" class="btn btn-primary">submit</button>
                 <input type="hidden" name="finder" value="<?php echo $_SESSION['username'] ?>">
                 <input type="hidden" name="team" value="<?php echo $_SESSION['team'] ?>">
